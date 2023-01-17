@@ -571,6 +571,7 @@ input[type=button] {
   .header-divider {
     display: none;
   }
+  
   /* Hero Area */
 
   .hero-area {
@@ -708,9 +709,10 @@ input[type=button] {
   /* ==========================================================================
    FAQ Page
    ========================================================================== */
-
+  
   .faq .content-wrapper {
     justify-content: space-between;
+    margin: 100px 0;
   }
 
   .faq-content {
@@ -728,6 +730,13 @@ input[type=button] {
   }
 }
 
+@media only screen and (min-width:912px) {
+  /* FAQ page styles */
+  .faq .content-wrapper {
+    margin: 200px 0;
+  }
+
+}
 @media only screen and (min-width:1200px) {
   /*Desktop styles here*/
 
