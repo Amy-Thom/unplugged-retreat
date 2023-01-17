@@ -239,6 +239,22 @@ footer .social-icons p {
   align-items: center;
 }
 
+footer .social-icons i {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #527158;
+  border: 1px solid #527158;
+  border-radius: 50%;
+}
+
+footer .social-icons p {
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+}
 footer .copyright {
   margin: 20px 0;
 }
@@ -331,6 +347,11 @@ input[type=button] {
 .features p {
   text-align: center;
   margin: 0;
+}
+
+.features i {
+  font-size: 3.75em;
+  margin-bottom: 40px;
 }
 
 /* Reviews */
@@ -613,7 +634,6 @@ input[type=button] {
     width: 85%;
   }
 
-  .reviews article figure,
   .reviews article div {
     width: 49%;
   }
